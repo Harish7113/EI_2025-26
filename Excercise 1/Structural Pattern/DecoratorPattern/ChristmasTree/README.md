@@ -1,11 +1,11 @@
-# 🎄 Christmas Tree Decorator Application
+# Christmas Tree Decorator Application
 
-## 📋 Overview
+## Overview
 
 A simple, console-based Java application that demonstrates the Decorator Design Pattern using a Christmas tree example.
 Users can decorate a tree with Garland, Lights, and Star dynamically at runtime.
 
-## 🚀 Features
+## Features
 
 ### Core Functionality
 
@@ -23,7 +23,7 @@ Allows behavior to be added to an object dynamically without altering its struct
 
 Each decoration (Garland, Lights, Star) wraps the tree and adds new functionality.
 
-## 🏗️ Architecture
+## Architecture
 
 ### File Structure
 
@@ -42,7 +42,7 @@ christmas-tree-decorator/
 
 <img src="ClassDiagram.png">
 
-## 📦 Quick Start
+## Quick Start
 
 ### 1.Clone Repository
 
@@ -57,7 +57,7 @@ javac \*.java
 
 java Main
 
-## 🎮 Usage
+## Usage
 
 When you run the application, you will see:
 
@@ -75,12 +75,12 @@ Enter choice: 2
 Enter choice: 3
 Enter choice: 4
 
-🎄 Final Tree Decoration: Christmas Tree with Garland with Lights with Star
+Final Tree Decoration: Christmas Tree with Garland with Lights with Star
 
-## 📈 Code Quality
+## Code Quality
 
-Encapsulation: Clear separation between component, decorators, and main logic.
+**Encapsulation**: Clear separation between component, decorators, and main logic.
 
-Extensibility: Easy to add new decorations by extending TreeDecorator.
+**Extensibility**: Easy to add new decorations by extending TreeDecorator.
 
-User Driven: Interactive input ensures flexible runtime decoration.
+**User Driven**: Interactive input ensures flexible runtime decoration.

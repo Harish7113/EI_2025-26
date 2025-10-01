@@ -1,11 +1,11 @@
-# ⚽ Football Club Application
+# Football Club Application
 
-## 📋 Overview
+## Overview
 
 A console-based Java application that demonstrates the Prototype Design Pattern.
 It allows cloning football player prototypes (Striker, Goalkeeper), customizing them (name, jersey number), and displaying their details.
 
-## 🚀 Features
+## Features
 
 Prototypes: Default Striker and Goalkeeper stored in a PlayerRegistry.
 
@@ -15,7 +15,7 @@ Customization: Each cloned player can have a new name and jersey number.
 
 Player Info: Displays the player’s details after creation.
 
-## 🏗️ Architecture
+## Architecture
 
 File Structure
 football-club/
@@ -30,7 +30,7 @@ football-club/
 
 <img src="ClassDiagram.png">
 
-## 📊 Flow from Main.java
+## Flow from Main.java
 
 ### Default Prototypes Created:
 
@@ -60,7 +60,7 @@ Player details are displayed.
 
 Option 3 ends the program.
 
-## 🎮 Example Run
+## Example Run
 
 Welcome to Football Club Application!
 
@@ -106,10 +106,10 @@ Menu:
    Enter your choice: 3
    Exiting application. Goodbye!
 
-## 📈 Code Quality
+## Code Quality
 
-Encapsulation: Clear roles between prototype interface, player class, registry, and main client.
+**Encapsulation**: Clear roles between prototype interface, player class, registry, and main client.
 
-Design Pattern: Correct Prototype Pattern with cloning implemented.
+**Design Pattern**: Correct Prototype Pattern with cloning implemented.
 
-Scalability: New roles (Defender, Midfielder, etc.) can be added easily.
+**Scalability**: New roles (Defender, Midfielder, etc.) can be added easily.

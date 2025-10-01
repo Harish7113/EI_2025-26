@@ -1,6 +1,6 @@
-# 🛒 Shopping Cart Application (Singleton Pattern)
+# Shopping Cart Application (Singleton Pattern)
 
-## 📋 Overview
+## Overview
 
 This is a simple, console-based Java application for managing a shopping cart.
 
@@ -8,7 +8,7 @@ The primary goal of this project is to demonstrate the **Singleton Design Patter
 
 ---
 
-## 🚀 Features
+## Features
 
 ### Core Functionality
 
@@ -22,7 +22,7 @@ The `ShoppingCart` class implements the Singleton pattern, ensuring a globally a
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ### File Structure
 
@@ -45,7 +45,7 @@ shopping-cart/
 
 ---
 
-## 📦 Quick Start
+## Quick Start
 
 ### 1. Clone Repository
 
@@ -60,7 +60,7 @@ javac Main.java ShoppingCart.java Product.java
 
 java Main
 
-## 🎮 Usage
+## Usage
 
 Main Menu Options
 MAIN MENU
@@ -81,7 +81,7 @@ Enter product price: 75000
 
 ### Viewing Cart:
 
-🛒 Your Cart:
+Your Cart:
 
 - Laptop ($75000.0)
 - Smartphone ($30000.0)
@@ -90,12 +90,12 @@ Enter product price: 75000
 
 Thank you for shopping!
 
-## 📈 Code Quality
+## Code Quality
 
-Encapsulation: Clear separation between model (Product), singleton (ShoppingCart), and UI (Main).
+**Encapsulation**: Clear separation between model (Product), singleton (ShoppingCart), and UI (Main).
 
-Design Pattern: Proper Singleton implementation with a private constructor and global access method.
+**Design Pattern**: Proper Singleton implementation with a private constructor and global access method.
 
-Scalability: Easy to extend with remove/edit features.
+**Scalability**: Easy to extend with remove/edit features.
 
-Input Handling: Menu-driven user interaction.
+**Input Handling**: Menu-driven user interaction.

@@ -1,4 +1,4 @@
-# 📈 Stock Market Notifier (Observer Pattern)
+# Stock Market Notifier (Observer Pattern)
 
 ## Overview
 
@@ -6,7 +6,7 @@ This project demonstrates the implementation of the **Observer Design Pattern** 
 
 ---
 
-## 🚀 Key Components and Design
+## Key Components and Design
 
 ### Design Pattern: Observer (Behavioral)
 
@@ -20,7 +20,7 @@ This application simulates a real-time stock price feed where investors subscrib
 
 <img src="ClassDiagram.png">
 
-## 🛠️ How It Works
+## How It Works
 
 1.  **Subscription:** An Investor (e.g., `alice`) is registered with the Stock using `stock.register(alice)`. The Investor is added to the Stock's internal list of observers.
 2.  **State Change:** The Stock's state is modified by calling a method like `stock.changePrice(newPrice)`.
@@ -30,7 +30,7 @@ This application simulates a real-time stock price feed where investors subscrib
 
 ---
 
-## 📦 Quick Start
+## Quick Start
 
 The application is purely console-based. To run the demo, execute the `ObserverPatternDemo` class.
 

@@ -1,10 +1,11 @@
-# 🏢 Company Composite Application
-## 📋 Overview
+# Company Composite Application
+
+## Overview
 
 A console-based Java application that demonstrates the Composite Design Pattern.
 It models a company hierarchy where departments, team leads, and programmers form a tree-like structure, making it easy to treat individual employees and groups of employees uniformly.
 
-## 🚀 Features
+## Features
 
 **Hierarchical Structure**: Models departments, team leads, and programmers.
 
@@ -14,22 +15,25 @@ It models a company hierarchy where departments, team leads, and programmers for
 
 **Company Display**: Prints a structured view of the company hierarchy.
 
-## 🏗️ Architecture
+## Architecture
+
 ### File Structure
+
 composite_pattern/
 │
-├── CompanyApp.java   # Entry point (creates hierarchy, displays structure)
-├── Staff.java        # Component interface
-├── Programmer.java   # Leaf class (individual staff)
-├── TeamLead.java     # Composite (can have multiple programmers)
-├── Department.java   # Composite (can have team leads or programmers)
-└── README.md         # Project documentation
+├── CompanyApp.java # Entry point (creates hierarchy, displays structure)
+├── Staff.java # Component interface
+├── Programmer.java # Leaf class (individual staff)
+├── TeamLead.java # Composite (can have multiple programmers)
+├── Department.java # Composite (can have team leads or programmers)
+└── README.md # Project documentation
 
 ## Class Diagram
 
 <img src="ClassDiagram.png">
 
-## 📊 Flow from CompanyApp.java
+## Flow from CompanyApp.java
+
 ### Steps:
 
 Create staff members (Programmers).
@@ -42,29 +46,29 @@ Display the full company hierarchy.
 
 Example Structure:
 Department: Development
-  TeamLead: Alice
-    Programmer: Bob
-    Programmer: Charlie
-  TeamLead: David
-    Programmer: Eva
+TeamLead: Alice
+Programmer: Bob
+Programmer: Charlie
+TeamLead: David
+Programmer: Eva
 
-🎮 Example Run
+Example Run
 --- Company Structure ---
 Department: Development
- TeamLead: Alice
-   Programmer: Bob
-   Programmer: Charlie
- TeamLead: David
-   Programmer: Eva
+TeamLead: Alice
+Programmer: Bob
+Programmer: Charlie
+TeamLead: David
+Programmer: Eva
 
 Department: HR
- TeamLead: Frank
-   Programmer: Grace
+TeamLead: Frank
+Programmer: Grace
 
-## 📈 Code Quality
+## Code Quality
 
-Encapsulation: Clear separation of responsibilities between staff, team leads, and departments.
+**Encapsulation**: Clear separation of responsibilities between staff, team leads, and departments.
 
-Design Pattern: Correct implementation of the Composite Pattern, allowing recursive hierarchy creation.
+**Design Pattern**: Correct implementation of the Composite Pattern, allowing recursive hierarchy creation.
 
-Scalability: New roles or organizational structures can be added with minimal changes.
+**Scalability**: New roles or organizational structures can be added with minimal changes.

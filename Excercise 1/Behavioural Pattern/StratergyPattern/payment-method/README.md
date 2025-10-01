@@ -1,11 +1,11 @@
-# 🛒 Payment Application
+# Payment Application
 
-## 📋 Overview
+## Overview
 
 A console-based Java application that demonstrates the Strategy Design Pattern.
 It allows users to select different payment methods (Credit Card or PayPal) at runtime and process payments accordingly.
 
-## 🚀 Features
+## Features
 
 **Payment Strategies**: Implements multiple strategies (CreditCardPayment, PayPalPayment) via a common PaymentStrategy interface.
 
@@ -15,7 +15,7 @@ It allows users to select different payment methods (Credit Card or PayPal) at r
 
 **Extensibility**: New payment methods can be added without modifying existing code.
 
-## 🏗️ Architecture
+## Architecture
 
 ### File Structure
 
@@ -32,7 +32,7 @@ payment-method/
 
 <img src="ClassDiagram.png">
 
-## 📊 Flow from StrategyPatternDemo.java
+## Flow from StrategyPatternDemo.java
 
 Menu Options:
 
@@ -56,7 +56,7 @@ Exit:
 
 Option 3 terminates the program.
 
-🎮 Example Run
+Example Run
 Welcome to Shopping Cart Payment Application!
 
 Menu:
@@ -97,7 +97,7 @@ Menu:
    Enter your choice: 3
    Exiting application. Goodbye!
 
-## 📈 Code Quality
+## Code Quality
 
 **Encapsulation**: Payment logic is separated from business logic.
 
